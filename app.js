@@ -55,10 +55,8 @@ $(function() {
 
 
   });
-});
-
-
-let mask = document.querySelector('.mask');
+  
+  let mask = document.querySelector('.mask');
 
 window.addEventListener('load', () => {
     mask.classList.add('hide');
@@ -66,4 +64,8 @@ window.addEventListener('load', () => {
         mask.remove();
     }, 600)
 });
+
+});
+
+
 
