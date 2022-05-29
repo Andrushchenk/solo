@@ -553,6 +553,12 @@ h1,h2,h3,h4,h5,h6, p
 
 }
 
+.item__project:active .item__project__hover{
+    opacity: 1;
+    cursor: pointer;
+
+
+}
 .item__project:hover .item__project__zaholovok{
     opacity: 1;
 }
